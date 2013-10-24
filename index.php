@@ -316,7 +316,7 @@ if (empty($_GET['act'])){
 	$op .= <<<CWS
 
 
-<form name="conform" enctype="multipart/form-data" action="{$_SERVER['PHP_SELF']}" method="post">
+<form name="conform" enctype="multipart/form-data" action="{$_SERVER['REQUEST_URI']}" method="post">
 
 
 <div class="wrapper">

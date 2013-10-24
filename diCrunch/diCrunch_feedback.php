@@ -61,11 +61,10 @@ CWS;
 	
 	$headers  = "MIME-Version: 1.0\r\n";
 	$headers .= "Content-type: text/plain; charset=utf-8\r\n";
-	$headers .= "From: diCrunch <dev@codesatori.com>\r\n";
+	$headers .= "From: diCrunchHarekrishnaRu <ashutosh@harekrishna.ru>\r\n";
 	$headers .= "Reply-to: {$_POST['Name']} <{$_POST['Email']}>\r\n";
-	$headers .= "Bcc: ragadesign@gmail.com\r\n";
 
-	if (mail("dev@codesatori.com", "diCrunch feedback module - {$_POST['Subject']}", $head . $msg . $foot, $headers)) {
+	if (mail("ashutosh@harekrishna.ru", "diCrunch feedback module - {$_POST['Subject']}", $head . $msg . $foot, $headers)) {
 		$mail_message = "<h2>Message successfully sent!</h2>\n";
 		$mail_message .= "<div class=\"preferencefield\">\n";
 		$mail_message .= "<div class=\"options\">" . nl2br($head . $msg . $foot) . "</div>\n</div>";

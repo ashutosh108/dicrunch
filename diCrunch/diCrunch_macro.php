@@ -23,16 +23,16 @@ if (!empty($_POST['program']) && $_POST['program'] == "custom") {
 	$templates['custom']['character_mark'] = $_POST['character_mark'];
 	$templates['custom']['omit_quotes'] = $_POST['omit_quotes'];
 	$templates['custom']['end'] = $_POST['end'];
-	$templates['custom']['bad_characters'] = array();
-	$templates['custom']['help'] = "A custom macro produced by diCrunch {$version} on {$date}";
-	
-	$templates['msword'] = $templates['custom'];
-}
-
-
-
-if (!empty($_POST['program'])) {
-
+	$templates['custom']['bad_characters'] = array();
+	$templates['custom']['help'] = "A custom macro produced by diCrunch {$version} on {$date}";
+	
+	$templates['msword'] = $templates['custom'];
+}
+
+
+
+if (!empty($_POST['program'])) {
+
 	$op .= <<<CWS
 <div class="wrapper" style="padding-bottom: 0px; margin-bottom: -5px;">
 	<div class="preferenceheading">

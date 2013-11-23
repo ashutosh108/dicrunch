@@ -35,29 +35,29 @@ CWS;
 
 
 			if (preg_match("#(href|url=|http://)#i", $value)) {
-		
-			echo <<<CWS
-	<div style="font: 12px Verdana; color: red;"><h1>Failed spamming attempt.</h1> Please do not send links to us over the contact form. Your IP-address {$_SERVER['REMOTE_ADDR']} has been logged. Repeated attempts will lead to action. If you feel you have received this message in error, please contact the developer by e-mail.
-	
-	<br /><br />
-	<b>Your message is duplicated below:</b>
-	<br /><br />
-	{$msg}
-	</div>
-CWS;
-	
-
-			exit;
-		}
-
-	}
-	
-	/* Back to routine */
-
-	
-
-	
-	$foot = "\n========================\n\nThe message was sent by a user with the IP-address {$_SERVER['REMOTE_ADDR']}\n";
+		
+			echo <<<CWS
+	<div style="font: 12px Verdana; color: red;"><h1>Failed spamming attempt.</h1> Please do not send links to us over the contact form. Your IP-address {$_SERVER['REMOTE_ADDR']} has been logged. Repeated attempts will lead to action. If you feel you have received this message in error, please contact the developer by e-mail.
+	
+	<br /><br />
+	<b>Your message is duplicated below:</b>
+	<br /><br />
+	{$msg}
+	</div>
+CWS;
+	
+
+			exit;
+		}
+
+	}
+	
+	/* Back to routine */
+
+	
+
+	
+	$foot = "\n========================\n\nThe message was sent by a user with the IP-address {$_SERVER['REMOTE_ADDR']}\n";
 	
 	$headers  = "MIME-Version: 1.0\r\n";
 	$headers .= "Content-type: text/plain; charset=utf-8\r\n";

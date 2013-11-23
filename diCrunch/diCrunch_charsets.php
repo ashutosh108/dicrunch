@@ -45,8 +45,8 @@ $ch['balaram'] = array(
 21 => "ý", // .y
 
 60 => "~", // \-/ (candrabindu)
-61 => "_", // _ (ha_uk)
-62 => "^", // ^ (ext. sandhi)
+61 => "_", // _ (ha_uk)
+62 => "^", // ^ (ext. sandhi)
 63 => "'", // avagraha
 64 => "~", // \_/ (candra e)
 65 => "/x", // \ (virama)

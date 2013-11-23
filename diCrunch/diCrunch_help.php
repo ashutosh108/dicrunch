@@ -36,17 +36,17 @@ Please use the <b><a href="{$_SERVER['PHP_SELF']}?act=feedback">Feedback Module<
 <div class="preferencefield">
 <b>Yes please</b>, the gesture would be appreciated. Heaps of time and brainpower have gone into the development of this free open-source utility. 
 
-<script type="text/javascript">document.write('<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;business=dev'+'%40codesatori' + '%2' + 'eco' + 'm' + '&amp;item_name=diCrunch&amp;item_number=109&amp;no_shipping=2&amp;no_note=1&amp;tax=0&amp;' + 'currency_code=EUR&amp;bn=PP%2dDonationsBF&amp;charset=UTF%2d8" target="_blank">');</script><b>Click to donate with PayPal!</b></a>
-
-</div>
-
-<hr />
-
-
-<div class="preferenceheading">
-<b>License, downloading, installation, changelog.</b>
-</div>
-<div class="preferencefield">
+<script type="text/javascript">document.write('<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;business=dev'+'%40codesatori' + '%2' + 'eco' + 'm' + '&amp;item_name=diCrunch&amp;item_number=109&amp;no_shipping=2&amp;no_note=1&amp;tax=0&amp;' + 'currency_code=EUR&amp;bn=PP%2dDonationsBF&amp;charset=UTF%2d8" target="_blank">');</script><b>Click to donate with PayPal!</b></a>
+
+</div>
+
+<hr />
+
+
+<div class="preferenceheading">
+<b>License, downloading, installation, changelog.</b>
+</div>
+<div class="preferencefield">
 <b>diCrunch is open-source and licensed</b> under GNU General Public License. You can read the license <a href="{$_SERVER['PHP_SELF']}?act=license">here</a>. 
 
 <ul>
@@ -56,16 +56,16 @@ Please use the <b><a href="{$_SERVER['PHP_SELF']}?act=feedback">Feedback Module<
 
 <b>If you want to install the application</b> for yourself, just upload it to any webserver with PHP support and point your browser to it. If you intend to put diCrunch to heavy regular use, please install your own copy instead of stressing our servers.
 
-</div>
+</div>
 
-<hr />
-
-<div class="preferenceheading">
-<b>What fonts should I use</b> with diCrunch to display everything properly?
-</div>
-<div class="preferencefield">
-<b>The default font</b> for the diCrunch text processing field is <a href="http://www.code2000.net/" target="_blank">CODE2000</a>, a shareware Unicode font containing all IAST diacritics and main Indic scripts in a single file. There are a number of Unicode fonts that support the diacritics necessary for Sanskrit transliteration &mdash; there's a <a href="http://www.pratyatosa.com/SanskritDiacriticTextConversion.htm" target="_blank">good list here</a>, and <a href="http://www.google.com/search?q=sanskrit+diacritics+unicode" target="_blank">Google helps</a> with the rest.
-</div>
+<hr />
+
+<div class="preferenceheading">
+<b>What fonts should I use</b> with diCrunch to display everything properly?
+</div>
+<div class="preferencefield">
+<b>The default font</b> for the diCrunch text processing field is <a href="http://www.code2000.net/" target="_blank">CODE2000</a>, a shareware Unicode font containing all IAST diacritics and main Indic scripts in a single file. There are a number of Unicode fonts that support the diacritics necessary for Sanskrit transliteration &mdash; there's a <a href="http://www.pratyatosa.com/SanskritDiacriticTextConversion.htm" target="_blank">good list here</a>, and <a href="http://www.google.com/search?q=sanskrit+diacritics+unicode" target="_blank">Google helps</a> with the rest.
+</div>
 
 <hr />
 
@@ -90,22 +90,22 @@ $op .= <<<CWS
 </div>
 
 <hr />
-
-<div class="preferenceheading">
-<b>What file types</b> can I upload for conversion? Are they stored somewhere?
-</div>
-<div class="preferencefield">
-<b>The following file extensions</b> are permitted for uploaded files: <b>{$exts}</b>. Uploaded files are <b>not stored</b> on our server &ndash; they are uploaded into a temporary folder and purged as the conversion completes.
-</div>
-
+
+<div class="preferenceheading">
+<b>What file types</b> can I upload for conversion? Are they stored somewhere?
+</div>
+<div class="preferencefield">
+<b>The following file extensions</b> are permitted for uploaded files: <b>{$exts}</b>. Uploaded files are <b>not stored</b> on our server &ndash; they are uploaded into a temporary folder and purged as the conversion completes.
+</div>
+
 <hr />
 
-<div class="preferenceheading">
-<b>Preferences</b> don't seem to get saved.
-</div>
-<div class="preferencefield">
-Preferences are stored using <a href="http://en.wikipedia.org/wiki/HTTP_cookie" target="_blank">cookies</a> &mdash; make sure your browser's privacy settings allow websites to set cookies.
-</div>
+<div class="preferenceheading">
+<b>Preferences</b> don't seem to get saved.
+</div>
+<div class="preferencefield">
+Preferences are stored using <a href="http://en.wikipedia.org/wiki/HTTP_cookie" target="_blank">cookies</a> &mdash; make sure your browser's privacy settings allow websites to set cookies.
+</div>
 
 
 

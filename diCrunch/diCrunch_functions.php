@@ -12,5 +12,5 @@ function clean_for_path($filename)
 	
 	return $filename;
 }
-
+
 ?>

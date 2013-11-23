@@ -41,6 +41,7 @@ $convs = array (
 	"csx" => "CSX",
 	"hk" => "Harvard-Kyoto",
 	"unicode" => "IAST Unicode",
+	"unicoderus" => "Unicode (Russian chars)",
 	"itrans" => "ITRANS",
 	"velthuis" => "Velthuis",
 	//"shakti" => "Shakti Mac",

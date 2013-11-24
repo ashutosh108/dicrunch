@@ -42,6 +42,7 @@ $convs = array (
 	"hk" => "Harvard-Kyoto",
 	"unicode" => "IAST Unicode",
 	"unicoderus" => "Unicode (Russian chars)",
+	"vedabase_com_ru" => "Vedabase.com (Russian chars)",
 	"itrans" => "ITRANS",
 	"velthuis" => "Velthuis",
 	//"shakti" => "Shakti Mac",

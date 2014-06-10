@@ -56,10 +56,10 @@ if (!empty($_POST['src'])) {
 	}
 
 
-        /* Cyrillic unicode: replace double-char cyrillic conbinations by latin ones */
-        if ($_POST['src'] == "unicoderus") {
-            $se = array('дж', 'а', 'б', 'ч', 'д', 'е', 'ф', 'г', 'х', 'и', 'к', 'л', 'м', 'н', 'о', 'п', 'q', 'р', 'с', 'т', 'у', 'в', 'в', 'x', 'й', 'z');
-            $re = array('j', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z');
+        /* Cyrillic unicode: fix some irregularities with 'дж' */
+        if ($_POST['src'] == "unicoderus" || $_POST['src'] == "vedabase_com_ru") {
+            $se = array('дж');
+            $re = array('j');
             $text = str_replace($se, $re, $text);
         }
 

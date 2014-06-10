@@ -33,11 +33,13 @@ if (!empty($_POST['src'])) {
 		$text = str_replace($se, $re, $text);
 	}	
 
-        if ($_POST['tgt'] == "unicoderus") {
-            $se = array('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z');
-            $re = array('а', 'б', 'ч', 'д', 'е', 'ф', 'г', 'х', 'и', 'дж', 'к', 'л', 'м', 'н', 'о', 'п', 'q', 'р', 'с', 'т', 'у', 'в', 'в', 'x', 'й', 'z');
+        /* Cyrillic unicode: fix some irregularities with 'дж' */
+        if ($_POST['tgt'] == "unicoderus" || $_POST['tgt'] == "vedabase_com_ru") {
+            $se = array('j');
+            $re = array('дж');
             $text = str_replace($se, $re, $text);
         }
+
 }
 
 $text = str_replace("\n ", "\n", $text);

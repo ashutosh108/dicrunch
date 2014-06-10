@@ -51,24 +51,3 @@ $text = str_replace("\n ", "\n", $text);
 if (!empty($_POST['mstyle'])) {
 	$text = str_replace("ṁ", "ṃ", $text);
 }
-
-
-
-/* Process escape character */
-
-function conv_back($char) {
-	global $ch;
-	$id = array_search($char, $ch[$_POST['tgt']]);
-	if ($id > 0) {
-		$char = $ch[$_POST['src']][$id];
-	}
-	return $char;
-}
-
-$text = preg_replace("@#(.)@ue", "conv_back('\\1')", $text);
-
-
-
-
-
-?>

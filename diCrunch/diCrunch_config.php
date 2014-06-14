@@ -51,6 +51,7 @@ $convs = array (
 	"bengali" => "Bengali script",
 	"devanagari" => "Devanagari script",
 	"oriya" => "Oriya script",
+        "bbt_rus" => "BBT Russian editor",
 );
 
 /* And which ones among them are script? */
@@ -72,6 +73,7 @@ $legends = array (
 	'bengali' => 'The script used for writing Bengali, Manipuri and some other languages. <a href="http://en.wikipedia.org/wiki/Bengali_script" target="_blank">Read more</a>.',
 	'devanagari' => 'The script used for writing Sanskrit, Hindi and several other languages. <a href="http://en.wikipedia.org/wiki/Devanagari_script" target="_blank">Read more</a>.',
 	'oriya' => 'The script used for writing Oriya and some other languages.  <a href="http://en.wikipedia.org/wiki/Oriya_script" target="_blank">Read more</a>.',
+        'bbt_rus' => 'The script used internally at BBT for books in Russian. There is no fixed file extension, filename coulr be like "RUC306XT.108".',
 );
 
 ?>

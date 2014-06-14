@@ -25,6 +25,8 @@ include "./diCrunch/diCrunch_functions.php";
 $version = "v2.0.1";
 $download_size = 35;
 
+ini_set('max_execution_time', 15);
+
 
 /* Permitted file list */
 

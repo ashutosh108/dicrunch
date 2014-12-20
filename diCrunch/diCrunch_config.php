@@ -52,6 +52,7 @@ $convs = array (
 	"devanagari" => "Devanagari script",
 	"oriya" => "Oriya script",
         "bbt_rus" => "BBT Russian editor",
+        "gita_rus" => "Gita Rus (SCSMath Russia's old font)",
 );
 
 /* And which ones among them are script? */

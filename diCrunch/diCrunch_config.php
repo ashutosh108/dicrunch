@@ -53,6 +53,7 @@ $convs = array (
 	"oriya" => "Oriya script",
         "bbt_rus" => "BBT Russian editor",
         "gita_rus" => "Gita Rus (SCSMath Russia's old font)",
+        "centenary" => "Centenary font (SCSMath)",
 );
 
 /* And which ones among them are script? */
@@ -75,6 +76,7 @@ $legends = array (
 	'devanagari' => 'The script used for writing Sanskrit, Hindi and several other languages. <a href="http://en.wikipedia.org/wiki/Devanagari_script" target="_blank">Read more</a>.',
 	'oriya' => 'The script used for writing Oriya and some other languages.  <a href="http://en.wikipedia.org/wiki/Oriya_script" target="_blank">Read more</a>.',
         'bbt_rus' => 'The script used internally at BBT for books in Russian. There is no fixed file extension, filename coulr be like "RUC306XT.108".',
+        'centenary' => 'Centenary font (was in use in SCSMath before unicode)',
 );
 
 ?>

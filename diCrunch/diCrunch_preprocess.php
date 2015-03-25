@@ -63,6 +63,15 @@ if (!empty($_POST['src'])) {
             $text = str_replace($se, $re, $text);
         }
 
+
+        if ($_POST['src'] == 'centenary') {
+            $se = array('щ', 'е', 'м', 'Я', 'т');
+            $re = array('ù', 'å', 'ì', 'ß', 'ò');
+            $text = str_replace($se, $re, $text);
+        }
+
 }
+
+$text = str_replace('&', '&amp;amp;', $text);
 
 ?>

@@ -154,7 +154,7 @@ if (!empty($_FILES['fileinput']['name'])) {
 	$ext = array_pop($ext);
 	
 	if (in_array($ext, $permitted_files)) {
-		$text = utf8_encode(file_get_contents($_FILES['fileinput']['tmp_name']));
+		$text = file_get_contents($_FILES['fileinput']['tmp_name']);
 	}
 	else {
 		$text = "this file type ({$ext}) is not permitted - permitted file extensions are: ";

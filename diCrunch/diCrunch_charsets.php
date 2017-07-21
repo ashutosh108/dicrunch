@@ -618,7 +618,7 @@ $ch['unicoderus'] = array(
 20 => "д̱", // _d
 21 => "й̇", // .y
 
-60 => "ӎ", // \-/ (candrabindu)
+60 => uchr(0x0310), // \-/ (candrabindu) (we are using "combining chandrabindu")
 61 => "̮", // _ (ha_uk)
 62 => "^", // ^ (ext. sandhi)
 63 => "'", // avagraha
@@ -1061,25 +1061,25 @@ $ch['centenary'] = array(
 );
 $ch['dham'] = array(
 
-    30 => "ї", // _a
-    31 => "Ӣ", // _i
-    32 => "Ӯ", // _u
-    33 => "Р̣", // .r
-    34 => "Р̣̄", // _.r
-    35 => "Н̇", // 'n
-    36 => "Н̃", // ~n
-    37 => "Т̣", // .t
-    38 => "Д̣", // .d
-    39 => "Н̣", // .n
-    40 => "Ѕ", // 's
-    41 => "Ш̣", // .s
-    42 => "М̇", // 'm (anusvara)
-    43 => "Х̣", // .h (visarga)
-    44 => "Л̣", // .l
-    45 => "Л̣̄", // _.l
+    30 => uchr(0x00a5), // _a
+    31 => uchr(0x00bd), // _i
+    32 => uchr(0x00a3), // _u
+    33 => uchr(0x00b2), // .r
+    34 => uchr(0x2020), // _.r
+    35 => uchr(0x00ad), // 'n
+    36 => uchr(0x00a4), // ~n
+    37 => uchr(0x0407), // .t
+    38 => uchr(0x0402), // .d
+    39 => uchr(0x00ae), // .n
+    40 => uchr(0x040e), // 's
+    41 => uchr(0x040b), // .s
+    42 => uchr(0x00b1), // 'm (anusvara)
+    43 => uchr(0x00b5), // .h (visarga)
+    44 => "", // .l
+    45 => "", // _.l
 
-    50 => "Д̱", // _D
-    51 => "Й̇", // .Y
+    50 => "", // _D
+    51 => "", // .Y
 
     1 => uchr(0x0491), // _a
     2 => uchr(0x0455), // _i
@@ -1096,19 +1096,19 @@ $ch['dham'] = array(
     13 => uchr(0x040c), // 'm (anusvara)
     14 => uchr(0x040f), // .h (visarga)
     15 => uchr(0x2122), // .l
-    16 => "л̣̄", // _.l
+    16 => "", // _.l
 
-    20 => "д̱", // _d
-    21 => "й̇", // .y
+    20 => "", // _d
+    21 => "", // .y
 
     60 => uchr(0x0454), // \-/ (candrabindu)
-    61 => "̮", // _ (ha_uk)
-    62 => "^", // ^ (ext. sandhi)
-    63 => "'", // avagraha
-    64 => "ӎ", // \_/ (candra e)
-    65 => "/x", // \ (virama)
-    66 => "…", // abbreviation
-    67 => "’", // Latin apostrophe
+    61 => "", // _ (ha_uk)
+    62 => "", // ^ (ext. sandhi)
+    63 => "", // avagraha
+    64 => "", // \_/ (candra e)
+    65 => "", // \ (virama)
+    66 => "", // abbreviation
+    67 => "", // Latin apostrophe
 
     80 => 'а', // a
     81 => 'б', // b

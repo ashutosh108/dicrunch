@@ -54,6 +54,7 @@ $convs = array (
         "bbt_rus" => "BBT Russian editor",
         "gita_rus" => "Gita Rus (SCSMath Russia's old font)",
         "centenary" => "Centenary font (SCSMath)",
+	"dham" => "Dham (WIP!) as used by Vrindavan Chandra Prabhu"
 );
 
 /* And which ones among them are script? */

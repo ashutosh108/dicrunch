@@ -1061,7 +1061,7 @@ $ch['centenary'] = array(
 );
 $ch['dham'] = array(
 
-    30 => uchr(0x00a5), // _a
+    30 => uchr(0x0490), // _A, also uchr(0x00a5)
     31 => uchr(0x00bd), // _i
     32 => uchr(0x00a3), // _u
     33 => uchr(0x0406), // .r

@@ -2,6 +2,8 @@
 
 /* More options */
 
+/** @var $text string */
+
 if (!empty($_POST['vtob'])) {
 	$text = str_replace("v", "b", $text);
 }
@@ -28,6 +30,7 @@ if ($_POST['src'] == "unicode") // support both Ms in input by standardizing
 
 if ($_POST['src'] == "dham") {
 	$text = str_replace(uchr(0x00a1), uchr(0x040e), $text); // alternative spelling for 'S
+	$text = str_replace(uchr(0x00a5), uchr(0x0490), $text); // alternative spelling for '-A'
 }
 
 

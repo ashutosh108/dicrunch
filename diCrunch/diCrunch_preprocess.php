@@ -26,6 +26,10 @@ if ($_POST['src'] == "unicode") // support both Ms in input by standardizing
 	$text = str_replace("ṃ", "ṁ", $text);
 }
 
+if ($_POST['src'] == "dham") {
+	$text = str_replace(uchr(0x00a1), uchr(0x040e), $text); // alternative spelling for 'S
+}
+
 
 /* First character of line as full vowel in scripts */
 
